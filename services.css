@@ -1,0 +1,128 @@
+.topbar{
+    height: 60px;
+    background-color: azure;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    width:100%;
+    top: 0;
+
+    h1{
+        color: blue;
+        font-style: cooper black;
+        text-align: center;
+        position: relative;
+       
+top: 50%;
+bottom: 50%;
+-webkit-transform: translateY(50%);
+-ms-transform: translateY(50%);
+transform: translateY(50%);
+    }
+
+}
+.topbar-contents img{
+  height: 100px;
+  width: 100px;
+  float: left;
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+  height: 45px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: right;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*===main section===*/
+.main-container{
+    background-color: #f9f9f9;
+   
+}
+.main-container-contents{
+
+    p{
+        color: rgb(37, 39, 39);
+        font-size: large;
+        font-style: normal;
+
+    }
+    a{
+        color: blue;
+        text-transform: lowercase;
+        text-decoration: none   ;
+        display: block;
+        text-align: center;
+        
+
+    }
+    a:hover{
+        text-transform: uppercase;
+        color: #9aa8f3;
+        text-decoration: line-through;
+    }
+}
+
+  
